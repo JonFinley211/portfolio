@@ -1,117 +1,214 @@
-<!doctype html>
-<html lang="en-us">
-
-<head>
-  <meta charset="UTF-8">
-  <title>About | Jon Finley</title>
-  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script> -->
-<!-- <metaname= "viewport"content="width-device-width, initial-scale=1"> -->
-<!-- @mediascreenand(max-width: 768px) {body{ background-color: #333;}.wrapper{width:600p}} -->
-</head>
-
-<body>
-
-  <header id="masthead">
-    <div class="container">
-      <a href="index.html" id="logo">Jon Finley</a>
-      <nav>
-        <a href="index.html">Resume</a>
-        <a href="portfolio.html">Portfolio</a>
-        <a href="contact.html">Contact</a>
-      </nav>
-    </div>
-  </header>
-
-  <div id="main-container" class="container">
-    <section class="main-section">
-      <h1>About </h1>
-
-      <img src="assets/images/portpic.jpg" class="auth-image" alt="Your Name">
-
-      <h2>
-        Nashville, TN 
-        <br>
-        865.368.5440 
-        <br>
-        lilfin19@gmail.com
-        <br>
-        <a href="https://github.com/JonFinley211">
-          
-          
-        GitHub
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="Jon - Responsive Personal Portfolio Template">
+        <meta name="keywords" content="Html, Css, jQuery, JavaScript, Jon, responsive, onepage, personal, Portfolio, design, creative, template">
         
-        <br>
+        <!-- Title -->
+        <title>Jon Finley- Responsive Personal Portfolio Template</title>
+        <!-- Favicon --> 
+        <link rel="icon" href="https://via.placeholder.com/80x80">
+        <!-- Google Fonts -->
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:300,400,600,800">
+                
+        <!-- Font Awesome Css -->
+        <!-- <link rel="stylesheet" href="css/font-awesome.min.css"> -->
+        <!-- Magnific css -->
+        <!-- <link rel="stylesheet" href="css/magnific-popup.css"> -->
+        <!-- Bootstrap Css -->
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <!-- Owl Carousel Css -->
+        <!-- <link rel="stylesheet" href="css/owl.carousel.min.css">
+        <link rel="stylesheet" href="css/owl.theme.default.min.css"> -->
+        <!-- Animate Css -->
+        <!-- <link rel="stylesheet" href="css/animate.min.css"> -->
+        <!-- Main Style Css -->
+        <link rel="stylesheet" href="css/main.css">
+        <!-- Colors Css -->
+        <link rel="stylesheet" href="css/colors/orange_color.css">
+        
+        <!--[if lt IE 9]>
+        <script src="js/html5shiv.min.js"></script>
+        <script src="js/respond.min.js"></script>
+        <![endif]-->
        
-          
-        <a href="https://www.linkedin.com/in/jon-finley-5b79a356">
+    </head>
+    <body>
+        
+        <!-- ========== Start Loading ========== -->
+        
+        <div class="preloader">
+            <div class="loading-inner">
+            </div>
+        </div>
+
+        <!-- ========== End Loading ========== -->
+        
+        <!-- ========== Start Color Switcher ========== -->
+        
+        <!-- <div class="switch-button"><i class="fa fa-cog fa-spin"></i></div>
+        <div class="switched-styles">
+            <h4>Color Switcher</h4>
+            <ul class="list-unstyled">
+                <li data-color="orange"></li>
+                <li data-color="gold"></li>
+                <li data-color="green"></li>
+                <li data-color="red"></li>
+                <li data-color="blue"></li>
+                <li data-color="purble"></li>
+                <li data-color="yellow"></li>
+                <li data-color="rose"></li>
+            </ul>
+            <div class="hide-button">&times;</div>
+        </div> -->
+        
+        <!-- ========== End Color Switcher ========== -->
+        
+        <!-- ========== Start Navbar ========== -->
+        
+        <nav class="navbar navbar-default ">
+            <div class="container">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                    <button class="menu-toggle">
+                        <span class="bar"></span>
+                        <span class="bar"></span>
+                        <span class="bar"></span>
+                    </button>
+                    <!-- logo -->
+                    <a class="navbar-brand" href="index.html">Jon.</a>
+                </div>
+                <!-- Collect the nav links, and other content for toggling -->
+                <div class="navbar-links" id="ournavbar">
+                    <!-- links -->
+                    <ul class="nav navbar-nav navbar-right">
+                        <li class="nav-brand text-center visible-xs-block"><a href="index.html">Jon.</a></li>
+                        <li><a class="active" href="Resume.html" data-value="#home">Home</a></li>
+                        <li><a href="" data-value="#about">About</a></li>
+                        <!-- <li><a href="#" data-value="#services">Services</a></li> -->
+                        <li><a href="resume.html" data-value="#resume">Resume</a></li>
+                        <li><a href="portfolio.html">Portfolio</a></li>
+                        <!-- <li><a href="" data-value="#blog">Blog</a></li> -->
+                        <li><a href="contact.html" data-value="#contact">Contact</a></li>
          
-          Linkedin
-        </a>
-        <br>
-      </a>
-      <a href= "/assets/images/Jons Resume 5_18_19.pdf" >Resume PDF</a>
-      
-      </h2>
-      <br>
-      <br>
-      <br>
-      
-<hl>
-  <h2>Skills</h2>
-<p>Management, Management Training and Leadership Development. <br>
-Sales Development and Strategies<br>
-excellent problem solving skills<br>
-Adobe suites, Excel, Powerpoint, Word, Publisher Maya, POS Systems, Quickbooks</p>
-      <h2>Places</h2><hl> 
-<p><b>Animax Designs</b> <br> 
-Assembly technician<br>
-March 2019- May 2019<br>
-Animatronics assembly Machining, Keenserts, Hilocks, rivets and other aerospace assemblies.</p>
-
-<p><b>Electronic Insiders</b></br>
-Manager<br>
-January  2018- Jan 2019 <br> 
-Managing business and team Running Cables and working on low Voltage Electronics. <br>
-Mounting TVs, running Electric as well as ethernet and coax. <br>
-Installing speakers, sound systems and wiring racks. </p>
-
-<p><b>Office Depot Inc/ Office Max</b> <br>
-Nashville, TN area<br>
-Manager<br>
-October 2013- Dec-2017  <br>
-Responsibilities include but not limited to: <br> 
-Managing Associates in the areas of Computer Technical Services, Shipping/Receiving<br>
-Improve efficiency of operations within  my areas of responsibility.<br>
-Training of new associates to achieve top levels of performance.<br></p>
-
-<p><b>Urbancaveman</b><br>
-Franklin, TN <br>
-Resource Manager <br>
-2011 - 2013<br>
-Supplier of specialty gaming products for a niche market.<br>
-Owned and managed  a small internet business using most up-to-date resources<br>
- to improve profit, using shipping technology.<br>
-</p>
-        <p>
-
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div id="main-container" class="container">
+            <section class="main-section">
+              <h1>About </h1>
+        
+              <img src="assets/images/portpic.jpg" class="auth-image" alt="Your Name">
+        
+              <h2>
+                Nashville, TN 
+                <br>
+                865.368.5440 
+                <br>
+                lilfin19@gmail.com
+                <br>
+                <a href="https://github.com/JonFinley211">
+                  
+                  
+                GitHub
+                
+                <br>
+               
+                  
+                <a href="https://www.linkedin.com/in/jon-finley-5b79a356">
+                 
+                  Linkedin
+                </a>
+                <br>
+              </a>
+              <a href= "/assets/images/Jons Resume 5_18_19.pdf" >Resume PDF</a>
+              
+              </h2>
+              <br>
+              <br>
+              <br>
+              
+        <hl>
+          <h2>Skills</h2>
+        <p>Management, Management Training and Leadership Development. <br>
+        Sales Development and Strategies<br>
+        excellent problem solving skills<br>
+        Adobe suites, Excel, Powerpoint, Word, Publisher Maya, POS Systems, Quickbooks</p>
+              <h2>Places</h2><hl> 
+        <p><b>Animax Designs</b> <br> 
+        Assembly technician<br>
+        March 2019- May 2019<br>
+        Animatronics assembly Machining, Keenserts, Hilocks, rivets and other aerospace assemblies.</p>
+        
+        <p><b>Electronic Insiders</b></br>
+        Manager<br>
+        January  2018- Jan 2019 <br> 
+        Managing business and team Running Cables and working on low Voltage Electronics. <br>
+        Mounting TVs, running Electric as well as ethernet and coax. <br>
+        Installing speakers, sound systems and wiring racks. </p>
+        
+        <p><b>Office Depot Inc/ Office Max</b> <br>
+        Nashville, TN area<br>
+        Manager<br>
+        October 2013- Dec-2017  <br>
+        Responsibilities include but not limited to: <br> 
+        Managing Associates in the areas of Computer Technical Services, Shipping/Receiving<br>
+        Improve efficiency of operations within  my areas of responsibility.<br>
+        Training of new associates to achieve top levels of performance.<br></p>
+        
+        <p><b>Urbancaveman</b><br>
+        Franklin, TN <br>
+        Resource Manager <br>
+        2011 - 2013<br>
+        Supplier of specialty gaming products for a niche market.<br>
+        Owned and managed  a small internet business using most up-to-date resources<br>
+         to improve profit, using shipping technology.<br>
         </p>
-
-      <!-- <p>Suspendisse dictum, oque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p> -->
-
-    </section>
-
-  </div>
-
-  <footer>
-    <div class="container">
-      Copyright &copy; 2020
-    </div>
-  </footer>
-</body>
-
+                <p>
+        
+                </p>
+        
+              <!-- <p>Suspendisse dictum, oque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p> -->
+        
+            </section>
+        
+          </div>
+        
+          <footer>
+            <div class="container">
+              Copyright &copy; 2020
+            </div>
+          </footer>
+        
+        
+        <!-- ========== End Navbar ========== -->
+        
+        <!-- ========== Start Home ========== -->
+        
+        
+        <!-- jQuery -->
+        <script src="js/jquery-3.2.1.min.js"></script>
+        <!-- Bootstrap Js -->
+        <script src="js/bootstrap.min.js"></script>
+        <!-- Owl Carousel Js -->
+        <!-- <script src="js/owl.carousel.min.js"></script> -->
+        <!--particles Js-->
+	    <!-- <script src="js/particles.js"></script> -->
+	    <script src="js/app.js"></script>
+        <!-- Count To Js -->
+        <!-- <script src="js/jquery.countTo.min.js"></script> -->
+        <!-- filterizr JS file -->
+        <!-- <script src="js/jquery.filterizr.js"></script> -->
+        <!-- Magnific Popup JS  -->
+        <!-- <script src="js/jquery.magnific-popup.min.js"></script> -->
+        <!--  WOW Js  -->
+        <!-- <script src="js/wow.min.js"></script> -->
+        <!-- Custom Js -->
+        <script src="js/custom.js"></script>
+    </body>
 </html>
