@@ -505,6 +505,7 @@ h6 {
     text-transform: capitalize;
     letter-spacing: 1px;
     margin: 0;
+    
 }
 
 .home .intro h1 {
@@ -515,6 +516,7 @@ h6 {
     font-weight: 800;
     line-height: 1;
     letter-spacing: 2px;
+    font-family: 'Montserrat', sans-serif
 }
 
 .home .intro p {
@@ -860,9 +862,9 @@ h6 {
         padding-left: 35px;
     }
     
-    .navbar .navbar-nav > li > a.active {
+    /* .navbar .navbar-nav > li > a.active {
         border-left: 3px solid;
-    }
+    } */
     
     .navbar.menu-active .navbar-links {
         visibility: visible;
@@ -1156,7 +1158,7 @@ body {
     padding-bottom: 20px;
     font-size: 30px;
     line-height: 49px;
-    border-bottom: 3px solid #dddddd;
+    /* border-bottom: 3px solid #dddddd; */
   }
   
   h2,
@@ -1174,7 +1176,7 @@ body {
     overflow: auto;
     color: #ffffff;
     background: #ffffff;
-    border-bottom: 2px solid #cccccc;
+    /* border-bottom: 2px solid #cccccc; */
   }
   
   #logo {
@@ -1193,7 +1195,7 @@ body {
   
   nav {
     float: right;
-    margin: 25px;
+    /* margin: 25px; */
   }
   
   nav a {
@@ -1203,7 +1205,7 @@ body {
     line-height: 18px;
     color: #999;
     text-decoration: none;
-    border-left: 1px solid #efefef;
+    /* border-left: 1px solid #efefef; */
   }
   
   nav a:first-child {
@@ -1228,7 +1230,7 @@ body {
     padding-bottom: 20px;
     margin-bottom: 15px;
     line-height: 22px;
-    border-bottom: 2px solid #eeeeee;
+    /* border-bottom: 2px solid #eeeeee; */
   }
   
   /* main */
@@ -1246,6 +1248,7 @@ body {
     margin: 0 0 40px;
    
     border: 1px solid #dddddd;
+    text-align: left;
   }
   
   /* portfolio page */
@@ -1362,7 +1365,7 @@ body {
         font-size: 25px;
         font-weight: 700;
         line-height: 90px;
-        color: #ffffff;
+        /* color: #ffffff; */
         text-align: center;
         text-decoration: none;
         background: linear-gradient(to right, #f7971c, #f34a4a);
@@ -1397,7 +1400,7 @@ body {
     padding-bottom: 20px;
     font-size: 26px;
     line-height: 35px;
-    border-bottom: 3px solid #dddddd;
+    /* border-bottom: 3px solid #dddddd; */
   }
   h1,
   h2,
